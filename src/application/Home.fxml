@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeControlar">
+   <children>
+      <Label layoutX="179.0" layoutY="67.0" prefHeight="18.0" prefWidth="270.0" text="           RK BANK LTD" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Light Italic" size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="269.0" layoutY="164.0" mnemonicParsing="false" onAction="#accountHolder" prefHeight="26.0" prefWidth="162.0" text="AccountHolder" />
+      <Button layoutX="269.0" layoutY="209.0" mnemonicParsing="false" onAction="#employeeH" prefHeight="26.0" prefWidth="169.0" text="Employee" />
+      <Button layoutX="332.0" layoutY="276.0" mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="44.0" text="Exit" />
+   </children>
+</AnchorPane>

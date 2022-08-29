@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="391.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="219.0" layoutY="126.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" text="LoginAsBanker" />
+      <Button layoutX="219.0" layoutY="182.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" text="LoginAsAccHolder" />
+   </children>
+</AnchorPane>

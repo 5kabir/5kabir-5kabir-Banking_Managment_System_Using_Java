@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+E:\University\2nd Year\2.1 semester\CSE_204\BanKApp\.metadata\.plugins\org.eclipse.jdt.core

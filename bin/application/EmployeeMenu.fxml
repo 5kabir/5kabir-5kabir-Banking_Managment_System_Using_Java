@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeeMenuControlar">
+   <children>
+      <Label layoutX="230.0" layoutY="78.0" prefHeight="18.0" prefWidth="282.0" text="         Employee Menu">
+         <font>
+            <Font name="ArnoPro-Regular" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="126.0" layoutY="204.0" mnemonicParsing="false" onAction="#AccountDetail" prefHeight="26.0" prefWidth="166.0" text="Account Details " />
+      <Button layoutX="126.0" layoutY="249.0" mnemonicParsing="false" onAction="#AllAccountDisp" prefHeight="26.0" prefWidth="166.0" text="All Account Display" />
+      <Button layoutX="65.0" layoutY="445.0" mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="67.0" text="Exit" />
+      <Button layoutX="517.0" layoutY="204.0" mnemonicParsing="false" onAction="#addNewAcc" prefHeight="26.0" prefWidth="166.0" text="Add New Account" />
+      <Button layoutX="517.0" layoutY="249.0" mnemonicParsing="false" onAction="#Deposit" prefHeight="26.0" prefWidth="166.0" text="Deposite " />
+      <Button layoutX="517.0" layoutY="347.0" mnemonicParsing="false" onAction="#tranAndAcDetail" prefHeight="26.0" prefWidth="166.0" text="All Account Details" />
+      <Button layoutX="126.0" layoutY="301.0" mnemonicParsing="false" onAction="#Transfer" prefHeight="26.0" prefWidth="166.0" text="Transfer" />
+      <Button layoutX="655.0" layoutY="432.0" mnemonicParsing="false" onAction="#Home" text="Home" />
+      <Button layoutX="126.0" layoutY="347.0" mnemonicParsing="false" onAction="#Transactionss" prefHeight="26.0" prefWidth="166.0" text="Transaction Details" />
+      <Button layoutX="517.0" layoutY="302.0" mnemonicParsing="false" onAction="#WithdrawMenu" prefHeight="26.0" prefWidth="166.0" text="Withdraw" />
+   </children>
+</AnchorPane>
